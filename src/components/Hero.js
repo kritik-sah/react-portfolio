@@ -1,5 +1,7 @@
 import React from 'react'
 import Particles from 'react-particles-js';
+import Typed from 'react-typed';
+import Profile from '../img/profile.png';
 
 const hero = () => {
     return (
@@ -16,7 +18,22 @@ const hero = () => {
             }}
         />
         <div className="container-fluid hero">
-            <h1>hi</h1>
+        <div className="container">
+            <img className="profile" src={Profile} alt="profile" />
+            <h1>I am <strong>KRITIK SAH</strong></h1>
+            <p>
+            <Typed 
+                strings={[
+                    'A Web Developer',
+                    'A Graphic Designer',
+                    'A YouTuber',
+                    ]}
+                    typeSpeed={40}
+                    backSpeed={50}
+                    loop
+            />
+            </p>
+        </div>
         </div>
         </>
     )
