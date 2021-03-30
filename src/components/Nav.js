@@ -21,6 +21,9 @@ const Nav = () => {
           <a className="nav-link" href="#">PORTFOLIO</a>
         </li>
         <li className="nav-item">
+          <a className="nav-link" href="#">CERTIFICATIONS</a>
+        </li>
+        <li className="nav-item">
           <a className="nav-link" href="#">TESTIMONIALS</a>
         </li>
         <li className="nav-item">

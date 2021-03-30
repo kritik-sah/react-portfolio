@@ -1,3 +1,24 @@
+.navbar{
+    z-index: 2;
+}
 .navbar-nav .nav-item{
     margin: 0.5875rem;
+}
+:root{
+    --main-red: #ee3534;
+    --main-black: #221d1c;
+    --main-white: rgb(255, 255, 255);
+}
+.hero{
+    background: url('./img/herobg.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tsparticles-canvas-el{
+    position: absolute;
+    height: 90vh;
+    width: 100vh;
+    z-index: 1;
 }
