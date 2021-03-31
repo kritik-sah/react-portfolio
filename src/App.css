@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 :root{
     --light-red: #ff4343;
     --main-red: #ee3534;
@@ -10,7 +13,11 @@
 .spacer{
     position: relative;
     justify-content: center;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
+}
+.mar-auto{
+    margin: auto;
+    justify-content: center;
 }
 body{
     font-family: 'Source Code Pro', monospace!important;
@@ -68,4 +75,12 @@ body{
     display: inline-block;
     padding: 2px;
     border-bottom: 3px solid var(--main-red) !important ;
+}
+.luffy{
+    position: absolute;
+    top: -15px;
+    right: -20px;
+}
+.m-10{
+    margin: 10px;
 }

@@ -1,6 +1,8 @@
 import React from 'react'
 import Portfolio from './Portfolio';
 import Typed from 'react-typed';
+import Luffy from "../img/luffy.png"
+import { Youtube , Github , Whatsapp} from 'react-bootstrap-icons';
 
 const About = () => {
     return (
@@ -22,10 +24,16 @@ const About = () => {
             />
             </h1>
             <p>There are so many ways i can describe my self but for now i think only One word is enough <strong>"<em className="txt-u-line">Learner</em>".</strong></p>
-         </div>
-         <div className="sec-right">
+            <a href="https://www.youtube.com/channel/UCh7-f_QrD7WcQcu62CixiHQ" target="_blank" rel="nofollow" className="btn m-10 btn-outline-danger"><Youtube /> YouTube</a>
+            <a href="https://github.com/kritik-sah" target="_blank" rel="nofollow" className="btn m-10 btn-outline-warning"><Github /> GitHub</a>
+            <a href="https://wa.link/xpwssg" target="_blank" rel="nofollow" className="btn m-10 btn-outline-success"><Whatsapp /> WhatsApp</a>
+            
+            
 
          </div>
+         </div>
+         <div className="luffy">
+         <img src={Luffy} alt="Luffy" height="200px" width="auto" />
          </div>
         <Portfolio />
     </div>
