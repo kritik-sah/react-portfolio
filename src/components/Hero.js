@@ -20,7 +20,8 @@ const hero = () => {
         <div className="container-fluid hero">
         <div className="container">
             <img className="profile" src={Profile} alt="profile" />
-            <h1>I am <strong>KRITIK SAH</strong></h1>
+            <br />
+            <h1>I am Kritik Sah</h1>
             <p>
             <Typed 
                 strings={[
