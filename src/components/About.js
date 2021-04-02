@@ -32,7 +32,10 @@ const About = () => {
          <div className="luffy">
          <img src={Luffy} alt="Luffy" height="200px" width="auto" />
          </div>
+
+         <div className="container-fluid" id="portfolio">
         <Portfolio />
+         </div>
     </div>
     )
 }
