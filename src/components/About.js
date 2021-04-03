@@ -1,8 +1,9 @@
 import React from 'react'
-import Portfolio from './Portfolio';
+import Cards from './Cards';
 import Typed from 'react-typed';
 import Luffy from "../img/luffy.png"
 import { Youtube , Github , Whatsapp} from 'react-bootstrap-icons';
+import PortfolioData from '../data/PortfolioData';
 
 const About = () => {
     return (
@@ -33,8 +34,12 @@ const About = () => {
          <img src={Luffy} alt="Luffy" height="200px" width="auto" />
          </div>
 
-         <div className="container-fluid" id="portfolio">
-        <Portfolio />
+         <div id="portfolio">
+            <Cards title={"PORTFOLIO"} data={PortfolioData}/>
+         </div>
+
+         <div id="CERTIFICATIONS">
+            <Cards title={"CERTIFICATIONS"} data={PortfolioData}/>
          </div>
     </div>
     )

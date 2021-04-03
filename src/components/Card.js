@@ -16,7 +16,7 @@ const Card = (Props) => {
         </div>
         </div>
         </div>
-        </div>
+        </div> 
         </span>
         </>
     )

@@ -1,11 +1,12 @@
 import React from 'react';
 import Card from './Card';
-import Carddata from '../data/Carddata';
 
-const Portfolio = () => {
-    return(Carddata.map(function (Props){
-        return(
+const Cards = (myCard) => {
+    return(
         <>
+        <h1 className="spacer heading-center"><b>{myCard.title}</b></h1>
+        {myCard.data.map(function (Props){
+        return(
         <Card 
             cardName = {Props.cardName}
             cardDec = {Props.cardDec}
@@ -13,12 +14,10 @@ const Portfolio = () => {
             targateMsg = {Props.targateMsg}
             targateLink = {Props.targateLink}
             />
-        </>
-            );
-    }));
+            )})}
     
+</>)
+}
 
-};
 
-
-export default Portfolio
+export default Cards
