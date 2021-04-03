@@ -77,7 +77,7 @@ body{
 .txt-u-line{
     display: inline-block;
     padding: 2px;
-    border-bottom: 3px solid var(--main-red) !important ;
+    border-bottom: 3px solid var(--main-red)  ;
 }
 .luffy{
     position: absolute;
@@ -99,13 +99,24 @@ body{
     box-shadow: 0px 0px 20px var(--dark-black);
 }
 .card-img{
-    height: 250px ;
+    height: 100% ;
     width: 173px;
     object-fit: cover;
     overflow: hidden;
 }
+.card-img:hover{
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    z-index: 4;
+    height: 80vh;
+    width: auto;
+}
 .heading-center{
     text-align: center;
+    text-decoration: underline solid var(--main-red) 3px;
 }
 
 
@@ -203,6 +214,11 @@ body{
     width: 100%;
     object-fit: cover;
     overflow: hidden;
+}
+.heading-center{
+    text-align: center;
+    text-decoration: underline solid var(--main-red) 3px;
+    margin-bottom: 20px;
 }
     
 }

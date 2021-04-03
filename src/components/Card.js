@@ -6,7 +6,7 @@ const Card = (Props) => {
         <div className="card mb-3 card-m-w spacer">
         <div className="row g-0">
         <div className="col-md-4">
-        <img className="card-img" src={Props.imgLink} alt="test" />
+        <img className="card-img" src={Props.imgLink} alt={Props.imgAlt} />
         </div>
         <div className="col-md-8">
         <div className="card-body">

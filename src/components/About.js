@@ -4,6 +4,7 @@ import Typed from 'react-typed';
 import Luffy from "../img/luffy.png"
 import { Youtube , Github , Whatsapp} from 'react-bootstrap-icons';
 import PortfolioData from '../data/PortfolioData';
+import CertData from '../data/CertData';
 
 const About = () => {
     return (
@@ -39,7 +40,7 @@ const About = () => {
          </div>
 
          <div id="CERTIFICATIONS">
-            <Cards title={"CERTIFICATIONS"} data={PortfolioData}/>
+            <Cards title={"CERTIFICATIONS"} data={CertData}/>
          </div>
     </div>
     )
