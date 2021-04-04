@@ -6,7 +6,7 @@ const SkillData = [
       targateLink : "https://en.wikipedia.org/wiki/HTML",
     },
     {
-      imgLink : "https://icon-library.com/images/css-icon-png/css-icon-png-2.jpg",
+      imgLink : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/730px-CSS.3.svg.png",
       imgAlt : "CSS 3",
       tooltipMsg : "CSS",
       targateLink : "https://en.wikipedia.org/wiki/CSS",
