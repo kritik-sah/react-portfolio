@@ -1,5 +1,6 @@
 import React from 'react'
 import Cards from './Cards';
+import Skills from './Skills';
 import Typed from 'react-typed';
 import Luffy from "../img/luffy.png"
 import { Youtube , Github , Whatsapp} from 'react-bootstrap-icons';
@@ -29,6 +30,7 @@ const About = () => {
             <a href="https://www.youtube.com/channel/UCh7-f_QrD7WcQcu62CixiHQ" target="_blank" rel="nofollow" className="btn m-10 btn-outline-danger"><Youtube /> YouTube</a>
             <a href="https://github.com/kritik-sah" target="_blank" rel="nofollow" className="btn m-10 btn-outline-warning"><Github /> GitHub</a>
             <a href="https://wa.link/xpwssg" target="_blank" rel="nofollow" className="btn m-10 btn-outline-success"><Whatsapp /> WhatsApp</a>
+         <Skills />
          </div>
          </div>
          <div className="luffy">

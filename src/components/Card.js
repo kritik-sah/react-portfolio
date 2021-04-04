@@ -1,8 +1,6 @@
 import React from 'react';
 const Card = (Props) => {
-    return (
-        <>
-        <span>
+    return (<>
         <div className="card mb-3 card-m-w spacer">
         <div className="row g-0">
         <div className="col-md-4">
@@ -17,9 +15,7 @@ const Card = (Props) => {
         </div>
         </div>
         </div> 
-        </span>
-        </>
-    )
+        </>)
 }
 
 export default Card
