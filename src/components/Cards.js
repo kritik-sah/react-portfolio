@@ -32,6 +32,7 @@ const displayCard = cards.slice(pagesVisited, (pagesVisited + cardsPerPage)).map
 
   return (
     <>
+      <h1 className="spacer heading-center"><b>{myCard.title}</b></h1>
       {displayCard}
       <div className="center">
       <ReactPaginate
