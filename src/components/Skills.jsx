@@ -7,7 +7,7 @@ const Skills = () => {
             <div className=" m-2">
             <h4 className="txt-u-line">Skills:</h4>
             <br />
-
+            <div className="skills">
             {SkillData.map(function (Props){
             return(
             <Skill 
@@ -17,7 +17,7 @@ const Skills = () => {
                 targateLink = {Props.targateLink}
             />
                 )})}
-
+                </div>
             </div>
         
         </>)

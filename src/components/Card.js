@@ -1,7 +1,7 @@
 import React from 'react';
 const Card = (Props) => {
     return (<>
-        <div className="card mb-3 card-m-w spacer">
+        <div className="card-m-w card mb-3  spacer">
         <div className="row g-0">
         <div className="col-md-4">
         <img className="card-img" src={Props.imgLink} alt={Props.imgAlt} />

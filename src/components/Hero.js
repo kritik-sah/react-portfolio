@@ -18,7 +18,7 @@ const hero = () => {
             }}
         />
         <div className="container-fluid hero">
-        <div className="container">
+        <div className="container mar-auto">
             <img className="profile" src={Profile} alt="profile" />
             <br />
             <h1>I am Kritik Sah</h1>

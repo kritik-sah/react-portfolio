@@ -9,7 +9,7 @@ import CertData from '../data/CertData';
 
 const About = () => {
     return (
-        <div className="container spacer">
+        <div className="container spacer ">
         <div className="about" id="about">
          <div className="sec-left ">
             <h4 className="txt-u-line">About Me:</h4>
