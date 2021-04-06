@@ -26,6 +26,8 @@ body{
     text-decoration: none;
     color: var(--main-white);
     background-color: var(--light-black);
+    background:linear-gradient(180deg,#000000be  ,#000000be ) , url("https://raw.githubusercontent.com/kritik-sah/carryminati/main/img/bg.png");
+    
 }
 .navbar{
     z-index: 2;
@@ -82,7 +84,7 @@ body{
     position: absolute;
     top: -15px;
     right: -20px;
-    box-shadow: 0px 0px 20px var(--dark-black) ;
+    
 }
 
 .m-10{
@@ -259,7 +261,7 @@ body{
         max-width: 100%;
         background-color: var(--main-black);
         display: inline-block;
-        margin: 30px 10%;
+        margin: 30px 5%;
     
         border-radius: 10px;
         box-shadow: 0px 0px 20px var(--dark-black);
