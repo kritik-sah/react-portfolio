@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <>
             <footer className='container-fluid footer spacer'>
-             <div className="container d-flex justify-content-around">
+             {/* <div className="container d-flex justify-content-around">
                 <div className="row flex-row spacer">
                     <div className="col-3 flex-column">
                         <img className="img-fluid" src={LogoWhite} alt="Logo"/>
@@ -46,11 +46,12 @@ const Footer = () => {
                      <MySocial />
                     </div>
                 </div>
-             </div>
+             </div> */}
                 
-             <div className="row justify-content-center border-top border-white">
-                    <p className="text-center p-3" >
+             <div className="row justify-content-center">
+                    <p className="text-center p-2" >
                         Kritik Sah Portfolio Desined on React & bootstrap "Thank You❤️"
+                        <MySocial />
                     </p>
                 </div>
             </footer>
