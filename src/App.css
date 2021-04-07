@@ -106,16 +106,7 @@ body{
     object-fit: cover;
     overflow: hidden;
 }
-.card-img:hover{
-    position: absolute;
-    top: auto;
-    bottom: auto;
-    left: auto;
-    right: auto;
-    z-index: 4;
-    height: 80vh;
-    width: auto;
-}
+
 .heading-center{
     text-align: center;
     text-decoration: underline solid var(--main-red) 3px;
@@ -174,7 +165,34 @@ body{
 .skills:hover .skillbadge{
     margin-left: 2px;
 }
-
+.footer{
+    background-color: var(--main-black);
+    box-shadow: 0px 0px 20px var(--dark-black);
+}
+footer ul{
+    padding: 0;
+    margin:  10px;
+}
+footer li{
+    
+    list-style: square;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #b4b4b4;
+}
+.top{
+    z-index: 99999;
+    position: sticky;
+    top: 99vh;
+    margin: 10px;
+    float: right;
+}
 
 
 
@@ -214,12 +232,7 @@ body{
         object-fit: cover;
         overflow: hidden;
     }
-    .card-img:hover{
-        position: static;
-        z-index: 2;
-        height: 250px;
-        width: 100%;
-    }
+
     .heading-center{
         text-align: center;
         text-decoration: underline solid var(--main-red) 3px;
@@ -453,16 +466,7 @@ body{
         object-fit: cover;
         overflow: hidden;
     }
-    .card-img:hover{
-        position: absolute;
-        top: auto;
-        bottom: auto;
-        left: auto;
-        right: auto;
-        z-index: 4;
-        height: 80vh;
-        width: auto;
-    }
+
     .heading-center{
         text-align: center;
         text-decoration: underline solid var(--main-red) 3px;
@@ -488,16 +492,7 @@ body{
         object-fit: cover;
         overflow: hidden;
     }
-    .card-img:hover{
-        position: absolute;
-        top: auto;
-        bottom: auto;
-        left: auto;
-        right: auto;
-        z-index: 4;
-        height: 80vh;
-        width: auto;
-    }
+
     .heading-center{
         text-align: center;
         text-decoration: underline solid var(--main-red) 3px;

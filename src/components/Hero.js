@@ -17,7 +17,7 @@ const hero = () => {
                 },
             }}
         />
-        <div className="container-fluid hero">
+        <div className="container-fluid  hero align-middle ">
         <div className="container mar-auto">
             <img className="profile" src={Profile} alt="profile" />
             <br />

@@ -3,7 +3,7 @@ import Logo from '../img/itrebels.png';
 
 const Nav = () => {
     return (
-<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav className="navbar navbar-expand-lg navbar-dark bg-dark " id="top">
   <div className="container-fluid">
   <div className="container">
     <a className="navbar-brand" href="/">

@@ -1,16 +1,14 @@
 import React from 'react'
-import Skill from './Skill'
-import SkillData from '../data/SkillData'
-const Skills = () => {
+import Social from './Social'
+import SocialData from '../data/Socials'
+const MySocial = () => {
         return(
             <>
             <div className=" m-2">
-            <h4 className="txt-u-line" id="skills">Skills:</h4>
-            <br />
-            <div className="skills">
-            {SkillData.map(function (Props){
+            
+            {SocialData.map(function (Props){
             return(
-            <Skill 
+            <Social 
                 imgLink = {Props.imgLink}
                 imgAlt = {Props.imgAlt}
                 tooltipMsg = {Props.tooltipMsg}
@@ -18,10 +16,9 @@ const Skills = () => {
             />
                 )})}
                 </div>
-            </div>
         
         </>)
     
 }
 
-export default Skills
+export default MySocial
