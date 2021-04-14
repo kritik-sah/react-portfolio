@@ -1,12 +1,12 @@
-import Profile from "../img/profile.png";
+import todoReact from "../img/proj/todo-react.gif";
 const PortfolioData = [
     {
-      cardName : "Card title",
-      cardDec : "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-      imgLink : Profile,
-      imgAlt : "alt for image",
-      targateMsg : "Last updated 3 mins ago",
-      targateLink : "#",
+      cardName : "React.js ToDo App",
+      cardDec : "A ToDo Application created with react.js, bootstrap 5 , Material UI and connected with firebase avilable on github and netlify",
+      imgLink : todoReact,
+      imgAlt : "React firebase ToDo Application",
+      targateMsg : "It's alive Hosted on Netlify",
+      targateLink : "https://kritik-fire-todo.netlify.app/",
     },
     
 ];
