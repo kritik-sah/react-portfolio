@@ -27,7 +27,7 @@ const Nav = () => {
           <a className="nav-link" href="#">TESTIMONIALS</a>
         </li>
         <li className="nav-item">
-          <a className="btn btn-outline-danger" href="#">CONTACT US</a>
+          <a className="btn btn-outline-danger" href="https://wa.link/xpwssg" target="_blank" rel="nofollow">CONTACT US</a>
         </li>
       </ul>
     </div>
