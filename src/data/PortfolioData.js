@@ -11,10 +11,18 @@ const PortfolioData = [
     {
       cardName : "Ubuntu LAMP Server on VirtualBox",
       cardDec : "[EXPERIMENT] I tried an experiment to mimic the process of hosting a website on digital ocean VPS ubuntu web Server in VirtualBox.",
-      imgLink : "https://i9.ytimg.com/vi/35GCw7KvBnU/maxresdefault.jpg?time=1618921500000&sqp=CJyQ-4MG&rs=AOn4CLCuoi81XNUN3whUu5FXB5YZiRd6mA",
+      imgLink : "https://1.bp.blogspot.com/-mJnqAsGyq2Q/YH7HbaaOTiI/AAAAAAAAA_E/gYJMqU7-LiEBP-Wokewpki0lyRKTOFq3gCLcBGAsYHQ/w320-h180/vm%2Bserver.jpg",
       imgAlt : "Ubuntu LAMP Server on VirtualBox",
       targateMsg : "Read it on my blog",
       targateLink : "https://it-rebels.blogspot.com/2021/04/creating-web-server-on-vm-virtual-box.html",
+    },
+    {
+      cardName : "Firebase Chat application",
+      cardDec : "A simple application built on react.js material UI ,bootstrap and used firebase as backend and database.",
+      imgLink : "https://i.ibb.co/bQGCkPy/firechat.png",
+      imgAlt : "Firebase Chat application",
+      targateMsg : "Firebase Chat application",
+      targateLink : "https://kritik-firechat.netlify.app/",
     },
     
 ];
