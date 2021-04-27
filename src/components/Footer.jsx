@@ -1,10 +1,10 @@
 import React from 'react'
 import MySocial from './MySocial'
-import LogoWhite from '../img/itrebelswhite.png'
-import SkillData from '../data/SkillData';
-import PortfolioData from '../data/PortfolioData';
-import CertData from '../data/CertData';
-import { StarFill , StarHalf , Star } from 'react-bootstrap-icons';
+// import LogoWhite from '../img/itrebelswhite.png'
+// import SkillData from '../data/SkillData';
+// import PortfolioData from '../data/PortfolioData';
+// import CertData from '../data/CertData';
+// import { StarFill , StarHalf , Star } from 'react-bootstrap-icons';
 
 const Footer = () => {
     return (
