@@ -1,5 +1,6 @@
 import React from 'react'
 import MySocial from './MySocial'
+
 // import LogoWhite from '../img/itrebelswhite.png'
 // import SkillData from '../data/SkillData';
 // import PortfolioData from '../data/PortfolioData';
@@ -7,6 +8,7 @@ import MySocial from './MySocial'
 // import { StarFill , StarHalf , Star } from 'react-bootstrap-icons';
 
 const Footer = () => {
+    
     return (
         <>
             <footer className='container-fluid footer spacer'>
