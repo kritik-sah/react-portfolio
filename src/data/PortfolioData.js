@@ -6,7 +6,7 @@ const PortfolioData = [
       imgLink : todoReact,
       imgAlt : "React firebase ToDo Application",
       targateMsg : "It's alive Hosted on Netlify",
-      targateLink : "https://kritik-fire-todo.netlify.app/",
+      targateLink : "https://kritiksah-firetodo.netlify.app/",
     },
     {
       cardName : "Ubuntu LAMP Server on VirtualBox",
@@ -22,7 +22,7 @@ const PortfolioData = [
       imgLink : "https://i.ibb.co/bQGCkPy/firechat.png",
       imgAlt : "Firebase Chat application",
       targateMsg : "Firebase Chat application",
-      targateLink : "https://kritik-firechat.netlify.app/",
+      targateLink : "https://sahkritik-firechat.netlify.app/",
     },
     
 ];
