@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: sahkritik.netlify.app
+Token: 47cf5c05f538ebb8426e31209c06a2f749df0c2f9946793fb11851d701c27d12
